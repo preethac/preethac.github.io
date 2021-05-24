@@ -14,6 +14,7 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/academicons.css"/>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -31,8 +32,9 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#service">Service</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#prospective-students">Prospective Students</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="">Vita</a></li>
                     <!--
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="">Vita</a></li>
+
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
@@ -51,18 +53,36 @@
                         Preetha Chatterjee
                         <!-- <span class="text-primary">Taylor</span> -->
                     </h1>
+
+                    <!--
                     <div class="subheading mb-5">
-                        <!--  3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·-->
+                        3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
                         <a href="mailto:preethac@udel.edu">preethac@udel.edu</a>
                     </div>
+                  -->
+
+                    <div class="lead mb-5">
+                    Email: <a href="mailto:preethac@udel.edu">preethac[at]udel[dot]edu</a> </br>
+                  </div>
+
+                  <div class="social-icons">
+                      <a class="social-icon" href="https://scholar.google.com/citations?user=5i170moAAAAJ&hl=en"> <i class="ai ai-google-scholar"></i> </a>
+                      <a class="social-icon" href="https://www.researchgate.net/profile/Preetha-Chatterjee"><i class="ai ai-researchgate"></i></a>
+                      <a class="social-icon" href="https://www.linkedin.com/in/preetha-chatterjee/"><i class="fab fa-linkedin-in"></i></a>
+                      <a class="social-icon" href="https://twitter.com/PreethaChatterj"><i class="fab fa-twitter"></i></a>
+                      <a class="social-icon" href="https://www.youtube.com/channel/UCFFOhVx0gRH9nl_GDF4ppxw"><i class="fab fa-youtube"></i></a>
+                  </div>
+                </br>
                     <p class="lead mb-5"> Preetha Chatterjee is an Assistant Professor in the <a href="https://drexel.edu/cci/academics/computer-science-department/">Department of Computer Science </a> at <a href="https://drexel.edu/">Drexel University </a> (Fall 2021).
                       She graduated with her M.S. in Computer Science from <a href="http://www.udel.edu/">University of Delaware </a> in 2016, and her Ph.D. in Computer Science from <a href="http://www.udel.edu/">University of Delaware </a> in 2021,
                       advised by <a href="https://www.eecis.udel.edu/~pollock/"> Dr. Lori Pollock </a>. Her research interests are primarily in software engineering, with an emphasis on improving software engineers’ tools and environments through data mining, text analysis and machine learning. She is especially interested in mining software repositories at a large scale, extending data analytics solutions to transform the plethora of information available in software artifacts into actionable nuggets of knowledge and tools, useful for both software engineers and researchers. Through her research, she intends to enable advances in areas including building/enhancing recommender systems for developers, information retrieval tasks from unstructured developer communications, and virtual assistants for software engineers.
                     </p>
                     <p class="lead mb-5", style="color:darkblue"> I am actively looking for motivated Masters/PhD students to work on Software Analytics. If you are enthusiastic about solving real-life Software Engineering problems, please get in touch with me via email. Detailed instructions <a href="#prospective-students">[here] </a>
                     </p>
-                    <p>
+                    <p style="color:darkgreen">
                       <b> Latest News! </b>
+                      </p>
+                      <p>
                       <li>April 2021: Received Frank A. Pehrson Graduate Student Award for Outstanding Computer Science Research from the Department of Computer and Information Science, University of Delaware, in recognition of outstanding performance and future potential in the field</li>
                       <li>March 2021: Successfully defended my Ph.D. dissertation on “Mining Information from Developer Chats Towards Building Software Maintenance Tools” at University of Delaware </li>
                       <li>March 2021: I will be joining as an Assistant Professor of Computer Science in the Department of Computer Science at Drexel University from Fall 2021!</li>
@@ -70,12 +90,7 @@
                       <li>February 2021: Journal paper “Automatically Identifying the Quality of Developer Chats for Post Hoc Use” accepted in the Transactions on Software Engineering and Methodology (TOSEM)</li>
                       <li>December 2020: Technical paper “Automatic Extraction of Opinion-based Q&A from Online Developer Chats” accepted in Proceedings of the 43rd International Conference on Software Engineering (ICSE 2021)</li>
                     </p>
-                    <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/preetha-chatterjee/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://twitter.com/PreethaChatterj"><i class="fab fa-twitter"></i></a>
-                        <a class="social-icon" href="https://scholar.google.com/citations?user=5i170moAAAAJ&hl=en"><i class="fab fa-google"></i></a>
-                        <a class="social-icon" href="https://www.youtube.com/channel/UCFFOhVx0gRH9nl_GDF4ppxw"><i class="fab fa-youtube"></i></a>
-                    </div>
+
                 </div>
             </section>
             <hr class="m-0" />
@@ -87,7 +102,36 @@
                     <h2 class="mb-5">Research</h2>
                     <p >
                     <h3 >Brief Overview:</h3> Integrated development environments today include sophisticated program modeling and analyses behind the scenes to support the developer in navigating, understanding, and modifying their code. While much can be learned from the results of static and dynamic analysis of their source code, developers also look to others for advice and learning. As software development teams are more globally distributed and the open source community has grown, developers rely increasingly on written documents for help they might have previously obtained through in-person conversations. My research activities cover (a) conducting empirical studies to analyze the information in written documents of software archives, and (b) designing techniques to mine useful information from the software archives which could be used in building/improving software maintenance and evolution tools.
+                    Some of my past research projects are: </br> </br>
+                    <li><b> Learning about Code Snippet Characteristics in Software Artifacts: </b>
+                      Large corpora of software-related artifacts (e.g., blogs, bug reports, emails) offer the unique opportunity to learn from developers’ discussion about code snippets. We conducted an empirical study of 12 types of artifacts to investigate: 1) characteristics of the embedded code snippets, 2) kinds of information available across all artifacts, and their frequency and distribution of availability, and 3) textual cues that indicate code-related information, and how the cues differ across artifacts.
+                    </br>
+                    <a href="files/SANER17.pdf">[SANER'17]</a>
+                    </li>
+                    <li> <b> Studying Developer Focus on Question and Answer (Q&A) Forums : </b>
+                      Although popular Q&A forums such as Stack Overflow serve as a good knowledge resource, the abundance of information can cause developers to spend considerable time in identifying relevant answers and suitable fixes. We conducted an exploratory study to understand how novice software engineers direct their efforts and what kinds of information they focus on within a Stack Overflow post. We qualitatively analyzed the software engineers’ perceptions and annotations from a survey involving 400 Stack Overflow posts related to errors and exceptions in Java and C++.
+                    </br>
+                      <a href="files/JSS_19.pdf">[JSS'19]</a>
+                    <li> <b> Mining Source Code Descriptions from Research Articles: </b>
+                      Digital libraries of computer science research articles can be a rich source for code examples that are used to motivate or explain particular concepts or issues. We designed a technique to automatically identify natural language descriptions of code segments embedded within articles. Extracting these natural language descriptions alongside code will enable new advances in areas including code-based search, automatic code comment generation, and documentation generation.
+                    </br>
+                    <a href="files/MSR17.pdf">[MSR'17]</a>
+
+                    <li> <b> Mining Information from Developer Chat Conversations Towards Building Software Maintenance Tools </b>
+                      Popular chat platforms such as Slack host public chat communities that focus on specific software development topics such as Python or Ruby-on-Rails.
+                      Many of those chat communications contain valuable information, such as description of code snippets and APIs, opinions on good programming practices, and causes of common errors/exceptions.
+                      This project aims to develop analyses for automatically identifying and extracting information in developers’ chat communications towards improving and building new tools to support software engineers. Specifically,
+                      (a) We conducted an exploratory study into the potential usefulness and challenges of mining developer Q&A format chat conversations for supporting software maintenance and evolution tools.
+                      (b) We created and published an openly available dataset of software-related chat conversations.
+                      (c) We designed approaches towards automatically analyzing the quality of information in chats using supervised machine learning techniques and natural language analysis.
+                      (d) We developed automatic techniques to extract opinion-based questions and answers from chats using deep learning architectures.
+                    </br>
+                    <a href="files/MSR19.pdf">[MSR'19]</a>
+                    <a href="files/MSR_Data_20.pdf">[MSR'20]</a>
+                    <a href="files/TOSEM21.pdf">[TOSEM'21]</a>
+                    <a href="files/ICSE21.pdf">[ICSE'21]</a>
                   </p>
+
                     <p>
                       <hr class="m-0" />
                       <h3>Publications:</h3>
@@ -97,16 +141,16 @@
 </p>
 
 <p>
-<li> <b> Automatic Extraction of Opinion-based Q&A from Online Developer Chats </b>
-Preetha Chatterjee, Kostadin Damevski, and Lori Pollock,
+<li> <b> Automatic Extraction of Opinion-based Q&A from Online Developer Chats </b> <br />
+Preetha Chatterjee, Kostadin Damevski, and Lori Pollock <br />
 The 43rd International Conference on Software Engineering (ICSE), Technical Track, May 2021.
 <p><a type="button" class="btn btn-info btn-sm" href="files/ICSE21.pdf">Preprint</a>
-  <a type="button" class="btn btn-info btn-sm" href="">DOI</a>
+  <a type="button" class="btn btn-info btn-sm" href="https://ieeexplore.ieee.org/document/9402078">DOI</a>
   <a type="button" class="btn btn-info btn-sm" href="https://www.slideshare.net/PreethaChatterjee1/automatic-extraction-of-opinionbased-qa-from-online-developer-chats">Slides</a>
 </p>
 
-<li> <b>Software-related Slack Chats with Disentangled Conversations </b>
-Preetha Chatterjee, Kostadin Damevski, Nicholas A. Kraft, and Lori Pollock,
+<li> <b>Software-related Slack Chats with Disentangled Conversations </b> <br />
+Preetha Chatterjee, Kostadin Damevski, Nicholas A. Kraft, and Lori Pollock <br />
 The 17th International Conference on Mining Software Repositories (MSR), Data Showcase Track, Oct 2020. Seoul, South Korea
 <p><a type="button" class="btn btn-info btn-sm" href="files/MSR_Data_20.pdf">Preprint</a>
   <a type="button" class="btn btn-info btn-sm" href="https://dl.acm.org/doi/10.1145/3379597.3387493">DOI</a>
@@ -115,8 +159,8 @@ The 17th International Conference on Mining Software Repositories (MSR), Data Sh
 
 </li>
 
-<li> <b>Extracting Archival-Quality Information from Software-Related Chats </b>
-Preetha Chatterjee,
+<li> <b>Extracting Archival-Quality Information from Software-Related Chats </b> <br />
+Preetha Chatterjee <br />
 The 42nd International Conference on Software Engineering (ICSE), Doctoral Symposium Track, Oct 2020. Seoul, South Korea
 <p><a type="button" class="btn btn-info btn-sm" href="files/ICSE_DocSymp_20.pdf">Preprint</a>
   <a type="button" class="btn btn-info btn-sm" href="https://dl.acm.org/doi/10.1145/3377812.3381391">DOI</a>
@@ -124,17 +168,18 @@ The 42nd International Conference on Software Engineering (ICSE), Doctoral Sympo
 </p>
 </li>
 
-<li> <b>Exploratory Study of Slack Q&A Chats as a Mining Source for Software Engineering Tools </b>
-Preetha Chatterjee, Kostadin Damevski, Lori Pollock, Vinay Augustine, and Nicholas A. Kraft,
+<li> <b>Exploratory Study of Slack Q&A Chats as a Mining Source for Software Engineering Tools </b> <br />
+Preetha Chatterjee, Kostadin Damevski, Lori Pollock, Vinay Augustine, and Nicholas A. Kraft <br />
 The 16th International Conference on Mining Software Repositories (MSR), Research Track, May 2019. Montreal, Canada
 <p><a type="button" class="btn btn-info btn-sm" href="files/MSR19.pdf">Preprint</a>
   <a type="button" class="btn btn-info btn-sm" href="https://dl.acm.org/citation.cfm?id=3341883.3341961">DOI</a>
   <a type="button" class="btn btn-info btn-sm" href="https://www.slideshare.net/PreethaChatterjee1/exploratory-study-of-slack-qa-chats-as-a-mining-source-for-software-engineering-tools">Slides</a>
+  <a type="button" class="btn btn-info btn-sm" href="https://new.abb.com/news/detail/26145/mining-slack"> Press Coverage</a>
 </p>
 </li>
 
-<li> <b>Extracting Code Segments and Their Descriptions from Research Articles </b>
-Preetha Chatterjee, Benjamin Gause, Hunter Hedinger, and Lori Pollock,
+<li> <b>Extracting Code Segments and Their Descriptions from Research Articles </b> <br />
+Preetha Chatterjee, Benjamin Gause, Hunter Hedinger, and Lori Pollock <br />
 The 14th International Conference on Mining Software Repositories (MSR), Research Track, May 2017. Buenos Aires, Argentina
 <p><a type="button" class="btn btn-info btn-sm" href="files/MSR17.pdf">Preprint</a>
   <a type="button" class="btn btn-info btn-sm" href="https://ieeexplore.ieee.org/document/7962359">DOI</a>
@@ -142,8 +187,8 @@ The 14th International Conference on Mining Software Repositories (MSR), Researc
 </p>
 </li>
 
-<li> <b>What Information about Code Snippets Is Available in Different Software-Related Documents? An Exploratory Study </b>
-Preetha Chatterjee, Manziba Akanda Nishi, Kostadin Damevski, Vinay Augustine, Lori Pollock, and Nicholas A. Kraft,
+<li> <b>What Information about Code Snippets Is Available in Different Software-Related Documents? An Exploratory Study </b> <br />
+Preetha Chatterjee, Manziba Akanda Nishi, Kostadin Damevski, Vinay Augustine, Lori Pollock, and Nicholas A. Kraft <br />
 The 24th IEEE International Conference on Software Analysis, Evolution, and Reengineering (SANER), Early Research Achievements Track, Feb 2017. Klagenfurt, Austria
 <p><a type="button" class="btn btn-info btn-sm" href="files/SANER17.pdf">Preprint</a>
   <a type="button" class="btn btn-info btn-sm" href="https://ieeexplore.ieee.org/document/7884638">DOI</a>
@@ -156,15 +201,15 @@ The 24th IEEE International Conference on Software Analysis, Evolution, and Reen
 </p>
 
 <p>
-<li> <b>Automatically Identifying the Quality of Developer Chats for Post Hoc Use </b>
-Preetha Chatterjee, Kostadin Damevski, Nicholas A. Kraft, and Lori Pollock,
+<li> <b>Automatically Identifying the Quality of Developer Chats for Post Hoc Use </b> <br />
+Preetha Chatterjee, Kostadin Damevski, Nicholas A. Kraft, and Lori Pollock <br />
 Transactions on Software Engineering and Methodology (TOSEM), Feb2021
 <p><a type="button" class="btn btn-info btn-sm" href="files/TOSEM21.pdf">Preprint</a>
   <a type="button" class="btn btn-info btn-sm" href="https://doi.org/10.1145/3450503">DOI</a></p>
 </li>
 
-<li> <b>Finding Help with Programming Errors: An Exploratory Study of Novice Software Engineers’ Focus in Stack Overflow Posts </b>
-Preetha Chatterjee, Minji Kong, Lori Pollock,
+<li> <b>Finding Help with Programming Errors: An Exploratory Study of Novice Software Engineers’ Focus in Stack Overflow Posts </b> <br />
+Preetha Chatterjee, Minji Kong, Lori Pollock <br />
 Journal of Systems and Software (JSS), Research Paper, Jan 2020.
 <p><a type="button" class="btn btn-info btn-sm" href="files/JSS_19.pdf">Preprint</a>
   <a type="button" class="btn btn-info btn-sm" href="https://doi.org/10.1016/j.jss.2019.110454">DOI</a>
@@ -178,11 +223,15 @@ Journal of Systems and Software (JSS), Research Paper, Jan 2020.
 </p>
 
 <p>
-  <li> <b>Mining Information from Developer Chats Towards Building Software Maintenance Tools (Ph.D. Thesis)</b>
+  <li> <b>Mining Information from Developer Chats Towards Building Software Maintenance Tools (Ph.D. Thesis)</b> <br />
+    Preetha Chatterjee <br />
+    University of Delaware
 <p><a type="button" class="btn btn-info btn-sm" href="">Manuscript</a></p>
 </li>
 
-<li> <b>Exploring the Generality of a Java-based Loop Action Model for the Quorum Programming Language (Ph.D. Preliminary Project)</b>
+<li> <b>Exploring the Generality of a Java-based Loop Action Model for the Quorum Programming Language (Ph.D. Preliminary Project)</b> <br />
+  Preetha Chatterjee <br />
+  University of Delaware
 <p><a type="button" class="btn btn-info btn-sm" href="https://arxiv.org/abs/1904.00478">Manuscript</a></p>
 </li>
 </p>
@@ -229,18 +278,18 @@ Journal of Systems and Software (JSS), Research Paper, Jan 2020.
                   <hr class="m-0" />
                   <p><h3>Collaborations and Mentorship:</h3>
                     <h4> Colloborators </h4>
-                    <li> Kostadin Damevski, Virginia Commonwealth University</li>
-                    <li> Nicholas A. Kraft, UserVoice</li>
-                    <li> Vinay Augustine, UserVoice</li>
+                    <li> Kostadin Damevski, Virginia Commonwealth University (2016-Present)</li>
+                    <li> Nicholas A. Kraft, UserVoice (2016-2020) </li>
+                    <li> Vinay Augustine, UserVoice (2016-2018) </li>
                     <p>
                     <h4> Past Undergraduate Students </h4>
-                    <li> Brian Phillips (2019-2020), Data analysis and case study of developer conversations on chat forums </li>
-                    <li> Humpher Owusu (2019-2020), Data analysis and case study of developer conversations on chat forums </li>
-                    <li> Kevin Mason (2019-2020), Data analysis of developer conversations on chat forums </li>
-                    <li> Minji Kong (2018), Qualitative study on novice programmers focus on Stack Overflow </li>
-                    <li> Qilin Ma (2017), Development of Python-based research tool for mining developer discussions on Stack Overflow </li>
-                    <li> Benjamin Gause (2016), Development of Python-based research tool for mining code descriptions from research articles </li>
-                    <li> Hunter Hedinger (2016), Development of Python-based research tool for mining code descriptions from research articles </li>
+                    <li> Brian Phillips (2019-2020) @University of Delaware, Data analysis and case study of developer conversations on chat forums </li>
+                    <li> Humpher Owusu (2019-2020) @University of Delaware, Data analysis and case study of developer conversations on chat forums </li>
+                    <li> Kevin Mason (2019-2020) @University of Delaware, Data analysis of developer conversations on chat forums </li>
+                    <li> Minji Kong (2018) @University of Delaware, Qualitative study on novice programmers focus on Stack Overflow </li>
+                    <li> Qilin Ma (2017) @University of Delaware, Development of Python-based research tool for mining developer discussions on Stack Overflow </li>
+                    <li> Benjamin Gause (2016) @University of Delaware, Development of Python-based research tool for mining code descriptions from research articles </li>
+                    <li> Hunter Hedinger (2016) @University of Delaware, Development of Python-based research tool for mining code descriptions from research articles </li>
                   </p>
                   </p>
               </div>
@@ -485,7 +534,7 @@ Journal of Systems and Software (JSS), Research Paper, Jan 2020.
                      <b>How to Apply:</b> Please submit the following documents via email to preethac@udel.edu under the subject “Potential Student Application”.
 
                        <li>Brief cover letter including: your research interests, outline of previous research experience, preferred start date </li>
-                       <li>Your current CV (including major accomplishments e.g., projects, publications, awards, etc.) </li>
+                       <li>Your current resume/CV (including major accomplishments e.g., projects, publications, awards, etc.) </li>
                        <li>One or two references that I can contact for a letter of reference (e.g., previous supervisors, instructors) </li>
                        <li>Unofficial Transcripts </li>
                        <li>Sample publications (if any) </li>
