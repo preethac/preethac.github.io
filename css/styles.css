@@ -10054,7 +10054,7 @@ p.lead {
   outline-color: #d48a6e;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   #sideNav {
     text-align: center;
     position: fixed;
