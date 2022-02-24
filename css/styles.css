@@ -1,16 +1,25 @@
 @charset "UTF-8";
 /*!
+<<<<<<< HEAD
 * Start Bootstrap - Resume v7.0.4 (https://startbootstrap.com/theme/resume)
+=======
+* Start Bootstrap - Resume v6.0.3 (https://startbootstrap.com/theme/resume)
+>>>>>>> parent of e7185bd (adding new style css)
 * Copyright 2013-2021 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
 */
 /*!
+<<<<<<< HEAD
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
+=======
+ * Bootstrap v4.6.0 (https://getbootstrap.com/)
+>>>>>>> parent of e7185bd (adding new style css)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
+<<<<<<< HEAD
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
@@ -62,6 +71,36 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
+=======
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #bd5d38;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #bd5d38;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 *,
@@ -70,14 +109,27 @@
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
   }
+=======
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 body {
   margin: 0;
+<<<<<<< HEAD
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
@@ -87,6 +139,15 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+=======
+  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 hr {
@@ -238,6 +299,7 @@ sup {
 
 a {
   color: #bd5d38;
+<<<<<<< HEAD
   text-decoration: underline;
 }
 a:hover {
@@ -245,6 +307,21 @@ a:hover {
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
+=======
+  text-decoration: none;
+  background-color: transparent;
+}
+a:hover {
+  color: #824027;
+  text-decoration: underline;
+}
+
+a:not([href]):not([class]) {
+  color: inherit;
+  text-decoration: none;
+}
+a:not([href]):not([class]):hover {
+>>>>>>> parent of e7185bd (adding new style css)
   color: inherit;
   text-decoration: none;
 }
@@ -253,7 +330,11 @@ pre,
 code,
 kbd,
 samp {
+<<<<<<< HEAD
   font-family: var(--bs-font-monospace);
+=======
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+>>>>>>> parent of e7185bd (adding new style css)
   font-size: 1em;
   direction: ltr /* rtl:ignore */;
   unicode-bidi: bidi-override;
@@ -318,6 +399,7 @@ caption {
 th {
   text-align: inherit;
   text-align: -webkit-match-parent;
+<<<<<<< HEAD
 }
 
 thead,
@@ -329,6 +411,8 @@ th {
   border-color: inherit;
   border-style: solid;
   border-width: 0;
+=======
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 label {
@@ -489,6 +573,42 @@ progress {
   display: none !important;
 }
 
+<<<<<<< HEAD
+=======
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: 0.5rem;
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  line-height: 1.2;
+  color: #343a40;
+}
+
+h1, .h1 {
+  font-size: 6rem;
+}
+
+h2, .h2 {
+  font-size: 3.5rem;
+}
+
+h3, .h3 {
+  font-size: 2rem;
+}
+
+h4, .h4 {
+  font-size: 1.5rem;
+}
+
+h5, .h5 {
+  font-size: 1.25rem;
+}
+
+h6, .h6 {
+  font-size: 1rem;
+}
+
+>>>>>>> parent of e7185bd (adding new style css)
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
@@ -578,7 +698,11 @@ progress {
 }
 
 .initialism {
+<<<<<<< HEAD
   font-size: 0.875em;
+=======
+  font-size: 90%;
+>>>>>>> parent of e7185bd (adding new style css)
   text-transform: uppercase;
 }
 
@@ -647,6 +771,44 @@ progress {
     max-width: 540px;
   }
 }
+<<<<<<< HEAD
+=======
+
+pre {
+  display: block;
+  font-size: 87.5%;
+  color: #212529;
+}
+pre code {
+  font-size: inherit;
+  color: inherit;
+  word-break: normal;
+}
+
+.pre-scrollable {
+  max-height: 340px;
+  overflow-y: scroll;
+}
+
+.container,
+.container-fluid,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container-sm, .container {
+    max-width: 540px;
+  }
+}
+>>>>>>> parent of e7185bd (adding new style css)
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
@@ -686,12 +848,18 @@ progress {
 }
 
 .col {
+<<<<<<< HEAD
   flex: 1 0 0%;
 }
 
 .row-cols-auto > * {
   flex: 0 0 auto;
   width: auto;
+=======
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 .row-cols-1 > * {
@@ -895,12 +1063,18 @@ progress {
 
 @media (min-width: 576px) {
   .col-sm {
+<<<<<<< HEAD
     flex: 1 0 0%;
   }
 
   .row-cols-sm-auto > * {
     flex: 0 0 auto;
     width: auto;
+=======
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+>>>>>>> parent of e7185bd (adding new style css)
   }
 
   .row-cols-sm-1 > * {
@@ -1108,12 +1282,18 @@ progress {
 }
 @media (min-width: 768px) {
   .col-md {
+<<<<<<< HEAD
     flex: 1 0 0%;
   }
 
   .row-cols-md-auto > * {
     flex: 0 0 auto;
     width: auto;
+=======
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+>>>>>>> parent of e7185bd (adding new style css)
   }
 
   .row-cols-md-1 > * {
@@ -1321,12 +1501,18 @@ progress {
 }
 @media (min-width: 992px) {
   .col-lg {
+<<<<<<< HEAD
     flex: 1 0 0%;
   }
 
   .row-cols-lg-auto > * {
     flex: 0 0 auto;
     width: auto;
+=======
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+>>>>>>> parent of e7185bd (adding new style css)
   }
 
   .row-cols-lg-1 > * {
@@ -1534,12 +1720,18 @@ progress {
 }
 @media (min-width: 1200px) {
   .col-xl {
+<<<<<<< HEAD
     flex: 1 0 0%;
   }
 
   .row-cols-xl-auto > * {
     flex: 0 0 auto;
     width: auto;
+=======
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+>>>>>>> parent of e7185bd (adding new style css)
   }
 
   .row-cols-xl-1 > * {
@@ -2222,9 +2414,12 @@ progress {
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(189, 93, 56, 0.25);
 }
+<<<<<<< HEAD
 .form-control::-webkit-date-and-time-value {
   height: 1.5em;
 }
+=======
+>>>>>>> parent of e7185bd (adding new style css)
 .form-control::-moz-placeholder {
   color: #6c757d;
   opacity: 1;
@@ -2449,12 +2644,27 @@ textarea.form-control-lg {
   text-shadow: 0 0 0 #212529;
 }
 
+<<<<<<< HEAD
 .form-select-sm {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   padding-left: 0.5rem;
+=======
+.valid-tooltip {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 5;
+  display: none;
+  max-width: 100%;
+  padding: 0.25rem 0.5rem;
+  margin-top: 0.1rem;
+>>>>>>> parent of e7185bd (adding new style css)
   font-size: 0.875rem;
   border-radius: 0.2rem;
+}
+.form-row > .col > .valid-tooltip, .form-row > [class*=col-] > .valid-tooltip {
+  left: 5px;
 }
 
 .form-select-lg {
@@ -2492,11 +2702,19 @@ textarea.form-control-lg {
   -webkit-print-color-adjust: exact;
           color-adjust: exact;
 }
+<<<<<<< HEAD
 .form-check-input[type=checkbox] {
   border-radius: 0.25em;
 }
 .form-check-input[type=radio] {
   border-radius: 50%;
+=======
+
+.was-validated .custom-select:valid, .custom-select.is-valid {
+  border-color: #28a745;
+  padding-right: calc(0.75em + 2.3125rem);
+  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") right 0.75rem center/8px 10px no-repeat, #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") center right 1.75rem/calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) no-repeat;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 .form-check-input:active {
   filter: brightness(90%);
@@ -2561,6 +2779,7 @@ textarea.form-control-lg {
 
 .btn-check {
   position: absolute;
+<<<<<<< HEAD
   clip: rect(0, 0, 0, 0);
   pointer-events: none;
 }
@@ -2568,6 +2787,30 @@ textarea.form-control-lg {
   pointer-events: none;
   filter: none;
   opacity: 0.65;
+=======
+  top: 100%;
+  left: 0;
+  z-index: 5;
+  display: none;
+  max-width: 100%;
+  padding: 0.25rem 0.5rem;
+  margin-top: 0.1rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #fff;
+  background-color: rgba(220, 53, 69, 0.9);
+  border-radius: 0.25rem;
+}
+.form-row > .col > .invalid-tooltip, .form-row > [class*=col-] > .invalid-tooltip {
+  left: 5px;
+}
+
+.was-validated :invalid ~ .invalid-feedback,
+.was-validated :invalid ~ .invalid-tooltip,
+.is-invalid ~ .invalid-feedback,
+.is-invalid ~ .invalid-tooltip {
+  display: block;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 .form-range {
@@ -2585,8 +2828,16 @@ textarea.form-control-lg {
 .form-range:focus::-webkit-slider-thumb {
   box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(189, 93, 56, 0.25);
 }
+<<<<<<< HEAD
 .form-range:focus::-moz-range-thumb {
   box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(189, 93, 56, 0.25);
+=======
+
+.was-validated .custom-select:invalid, .custom-select.is-invalid {
+  border-color: #dc3545;
+  padding-right: calc(0.75em + 2.3125rem);
+  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") right 0.75rem center/8px 10px no-repeat, #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e") center right 1.75rem/calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) no-repeat;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 .form-range::-moz-focus-outer {
   border: 0;
@@ -3775,7 +4026,12 @@ textarea.form-control-lg {
   border: 0;
 }
 .dropdown-item:hover, .dropdown-item:focus {
+<<<<<<< HEAD
   color: #1e2125;
+=======
+  color: #16181b;
+  text-decoration: none;
+>>>>>>> parent of e7185bd (adding new style css)
   background-color: #e9ecef;
 }
 .dropdown-item.active, .dropdown-item:active {
@@ -3965,6 +4221,7 @@ textarea.form-control-lg {
 .nav-tabs {
   border-bottom: 1px solid #dee2e6;
 }
+<<<<<<< HEAD
 .nav-tabs .nav-link {
   margin-bottom: -1px;
   background: none;
@@ -3975,12 +4232,19 @@ textarea.form-control-lg {
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
   border-color: #e9ecef #e9ecef #dee2e6;
   isolation: isolate;
+=======
+.input-group > .form-control:not(:first-child),
+.input-group > .custom-select:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 .nav-tabs .nav-link.disabled {
   color: #6c757d;
   background-color: transparent;
   border-color: transparent;
 }
+<<<<<<< HEAD
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
@@ -3991,6 +4255,23 @@ textarea.form-control-lg {
   margin-top: -1px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+=======
+.input-group > .custom-file:not(:last-child) .custom-file-label, .input-group > .custom-file:not(:first-child) .custom-file-label {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.input-group:not(.has-validation) > .form-control:not(:last-child),
+.input-group:not(.has-validation) > .custom-select:not(:last-child),
+.input-group:not(.has-validation) > .custom-file:not(:last-child) .custom-file-label::after {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.input-group.has-validation > .form-control:nth-last-child(n+3),
+.input-group.has-validation > .custom-select:nth-last-child(n+3),
+.input-group.has-validation > .custom-file:nth-last-child(n+3) .custom-file-label::after {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 .nav-pills .nav-link {
@@ -4017,16 +4298,46 @@ textarea.form-control-lg {
   text-align: center;
 }
 
+<<<<<<< HEAD
 .nav-fill .nav-item .nav-link,
 .nav-justified .nav-item .nav-link {
   width: 100%;
+=======
+.input-group > .input-group-prepend > .btn,
+.input-group > .input-group-prepend > .input-group-text,
+.input-group:not(.has-validation) > .input-group-append:not(:last-child) > .btn,
+.input-group:not(.has-validation) > .input-group-append:not(:last-child) > .input-group-text,
+.input-group.has-validation > .input-group-append:nth-last-child(n+3) > .btn,
+.input-group.has-validation > .input-group-append:nth-last-child(n+3) > .input-group-text,
+.input-group > .input-group-append:last-child > .btn:not(:last-child):not(.dropdown-toggle),
+.input-group > .input-group-append:last-child > .input-group-text:not(:last-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 .tab-content > .tab-pane {
   display: none;
 }
+<<<<<<< HEAD
 .tab-content > .active {
   display: block;
+=======
+
+.custom-control {
+  position: relative;
+  z-index: 1;
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 1.5rem;
+  -webkit-print-color-adjust: exact;
+          color-adjust: exact;
+}
+
+.custom-control-inline {
+  display: inline-flex;
+  margin-right: 1rem;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 .navbar {
@@ -4069,8 +4380,20 @@ textarea.form-control-lg {
   padding-right: 0;
   padding-left: 0;
 }
+<<<<<<< HEAD
 .navbar-nav .dropdown-menu {
   position: static;
+=======
+.custom-control-label::after {
+  position: absolute;
+  top: 0.25rem;
+  left: -1.5rem;
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  content: "";
+  background: 50%/50% 50% no-repeat;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 .navbar-text {
@@ -4112,9 +4435,59 @@ textarea.form-control-lg {
   width: 1.5em;
   height: 1.5em;
   vertical-align: middle;
+<<<<<<< HEAD
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+=======
+  background: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") right 0.75rem center/8px 10px no-repeat;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+.custom-select:focus {
+  border-color: #e0aa95;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(189, 93, 56, 0.25);
+}
+.custom-select:focus::-ms-value {
+  color: #495057;
+  background-color: #fff;
+}
+.custom-select[multiple], .custom-select[size]:not([size="1"]) {
+  height: auto;
+  padding-right: 0.75rem;
+  background-image: none;
+}
+.custom-select:disabled {
+  color: #6c757d;
+  background-color: #e9ecef;
+}
+.custom-select::-ms-expand {
+  display: none;
+}
+.custom-select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #495057;
+}
+
+.custom-select-sm {
+  height: calc(1.5em + 0.5rem + 2px);
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.custom-select-lg {
+  height: calc(1.5em + 1rem + 2px);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  font-size: 1.25rem;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 .navbar-nav-scroll {
@@ -4122,6 +4495,7 @@ textarea.form-control-lg {
   overflow-y: auto;
 }
 
+<<<<<<< HEAD
 @media (min-width: 576px) {
   .navbar-expand-sm {
     flex-wrap: nowrap;
@@ -5855,6 +6229,45 @@ textarea.form-control-lg {
   color: #fff;
   text-align: center;
   background-color: #000;
+=======
+.custom-file-input {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  margin: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+.custom-file-input:focus ~ .custom-file-label {
+  border-color: #e0aa95;
+  box-shadow: 0 0 0 0.2rem rgba(189, 93, 56, 0.25);
+}
+.custom-file-input[disabled] ~ .custom-file-label, .custom-file-input:disabled ~ .custom-file-label {
+  background-color: #e9ecef;
+}
+.custom-file-input:lang(en) ~ .custom-file-label::after {
+  content: "Browse";
+}
+.custom-file-input ~ .custom-file-label[data-browse]::after {
+  content: attr(data-browse);
+}
+
+.custom-file-label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  overflow: hidden;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+>>>>>>> parent of e7185bd (adding new style css)
   border-radius: 0.25rem;
 }
 
@@ -5900,8 +6313,28 @@ textarea.form-control-lg {
   border-style: solid;
 }
 
+<<<<<<< HEAD
 .bs-popover-top > .popover-arrow, .bs-popover-auto[data-popper-placement^=top] > .popover-arrow {
   bottom: calc(-0.5rem - 1px);
+=======
+.custom-range {
+  width: 100%;
+  height: 1.4rem;
+  padding: 0;
+  background-color: transparent;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+.custom-range:focus {
+  outline: 0;
+}
+.custom-range:focus::-webkit-slider-thumb {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(189, 93, 56, 0.25);
+}
+.custom-range:focus::-moz-range-thumb {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(189, 93, 56, 0.25);
+>>>>>>> parent of e7185bd (adding new style css)
 }
 .bs-popover-top > .popover-arrow::before, .bs-popover-auto[data-popper-placement^=top] > .popover-arrow::before {
   bottom: 0;
@@ -6047,6 +6480,7 @@ textarea.form-control-lg {
   transition-property: opacity;
   transform: none;
 }
+<<<<<<< HEAD
 .carousel-fade .carousel-item.active,
 .carousel-fade .carousel-item-next.carousel-item-start,
 .carousel-fade .carousel-item-prev.carousel-item-end {
@@ -6058,6 +6492,13 @@ textarea.form-control-lg {
   z-index: 0;
   opacity: 0;
   transition: opacity 0s 0.6s;
+=======
+.nav-tabs .nav-link {
+  margin-bottom: -1px;
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-fade .active.carousel-item-start,
@@ -6103,6 +6544,7 @@ textarea.form-control-lg {
   left: 0;
 }
 
+<<<<<<< HEAD
 .carousel-control-next {
   right: 0;
 }
@@ -6115,6 +6557,19 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: 100% 100%;
+=======
+.nav-fill > .nav-link,
+.nav-fill .nav-item {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.nav-justified > .nav-link,
+.nav-justified .nav-item {
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: center;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 /* rtl:options: {
@@ -6209,6 +6664,7 @@ textarea.form-control-lg {
 }
 .spinner-border {
   display: inline-block;
+<<<<<<< HEAD
   width: 2rem;
   height: 2rem;
   vertical-align: -0.125em;
@@ -6217,6 +6673,18 @@ textarea.form-control-lg {
   border-radius: 50%;
   -webkit-animation: 0.75s linear infinite spinner-border;
           animation: 0.75s linear infinite spinner-border;
+=======
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: 50%/100% 100% no-repeat;
+}
+
+.navbar-nav-scroll {
+  max-height: 75vh;
+  overflow-y: auto;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 .spinner-border-sm {
@@ -6233,11 +6701,20 @@ textarea.form-control-lg {
     opacity: 1;
     transform: none;
   }
+<<<<<<< HEAD
 }
 
 @keyframes spinner-grow {
   0% {
     transform: scale(0);
+=======
+  .navbar-expand-sm .navbar-nav-scroll {
+    overflow: visible;
+  }
+  .navbar-expand-sm .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+>>>>>>> parent of e7185bd (adding new style css)
   }
   50% {
     opacity: 1;
@@ -6255,6 +6732,7 @@ textarea.form-control-lg {
   -webkit-animation: 0.75s linear infinite spinner-grow;
           animation: 0.75s linear infinite spinner-grow;
 }
+<<<<<<< HEAD
 
 .spinner-grow-sm {
   width: 1rem;
@@ -6266,6 +6744,37 @@ textarea.form-control-lg {
 .spinner-grow {
     -webkit-animation-duration: 1.5s;
             animation-duration: 1.5s;
+=======
+@media (min-width: 768px) {
+  .navbar-expand-md {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .navbar-expand-md .navbar-nav {
+    flex-direction: row;
+  }
+  .navbar-expand-md .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  .navbar-expand-md > .container,
+.navbar-expand-md > .container-fluid,
+.navbar-expand-md > .container-sm,
+.navbar-expand-md > .container-md,
+.navbar-expand-md > .container-lg,
+.navbar-expand-md > .container-xl {
+    flex-wrap: nowrap;
+  }
+  .navbar-expand-md .navbar-nav-scroll {
+    overflow: visible;
+  }
+  .navbar-expand-md .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+>>>>>>> parent of e7185bd (adding new style css)
   }
 }
 .offcanvas {
@@ -6320,11 +6829,47 @@ textarea.form-control-lg {
   margin-bottom: 0;
   line-height: 1.5;
 }
+<<<<<<< HEAD
 
 .offcanvas-body {
   flex-grow: 1;
   padding: 1rem 1rem;
   overflow-y: auto;
+=======
+@media (min-width: 992px) {
+  .navbar-expand-lg {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  .navbar-expand-lg > .container,
+.navbar-expand-lg > .container-fluid,
+.navbar-expand-lg > .container-sm,
+.navbar-expand-lg > .container-md,
+.navbar-expand-lg > .container-lg,
+.navbar-expand-lg > .container-xl {
+    flex-wrap: nowrap;
+  }
+  .navbar-expand-lg .navbar-nav-scroll {
+    overflow: visible;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+  }
+  .navbar-expand-lg .navbar-toggler {
+    display: none;
+  }
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 .offcanvas-start {
@@ -6334,6 +6879,7 @@ textarea.form-control-lg {
   border-right: 1px solid rgba(0, 0, 0, 0.2);
   transform: translateX(-100%);
 }
+<<<<<<< HEAD
 
 .offcanvas-end {
   top: 0;
@@ -6341,6 +6887,41 @@ textarea.form-control-lg {
   width: 400px;
   border-left: 1px solid rgba(0, 0, 0, 0.2);
   transform: translateX(100%);
+=======
+@media (min-width: 1200px) {
+  .navbar-expand-xl {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .navbar-expand-xl .navbar-nav {
+    flex-direction: row;
+  }
+  .navbar-expand-xl .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
+  .navbar-expand-xl .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  .navbar-expand-xl > .container,
+.navbar-expand-xl > .container-fluid,
+.navbar-expand-xl > .container-sm,
+.navbar-expand-xl > .container-md,
+.navbar-expand-xl > .container-lg,
+.navbar-expand-xl > .container-xl {
+    flex-wrap: nowrap;
+  }
+  .navbar-expand-xl .navbar-nav-scroll {
+    overflow: visible;
+  }
+  .navbar-expand-xl .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+  }
+  .navbar-expand-xl .navbar-toggler {
+    display: none;
+  }
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 .offcanvas-top {
@@ -6382,9 +6963,18 @@ textarea.form-control-lg {
 .placeholder-xs {
   min-height: 0.6em;
 }
+<<<<<<< HEAD
 
 .placeholder-sm {
   min-height: 0.8em;
+=======
+.navbar-expand .navbar-nav-scroll {
+  overflow: visible;
+}
+.navbar-expand .navbar-collapse {
+  display: flex !important;
+  flex-basis: auto;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 .placeholder-lg {
@@ -6455,9 +7045,14 @@ textarea.form-control-lg {
 .link-success:hover, .link-success:focus {
   color: #146c43;
 }
+<<<<<<< HEAD
 
 .link-info {
   color: #0dcaf0;
+=======
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+>>>>>>> parent of e7185bd (adding new style css)
 }
 .link-info:hover, .link-info:focus {
   color: #3dd5f3;
@@ -6511,6 +7106,10 @@ textarea.form-control-lg {
 .ratio-1x1 {
   --bs-aspect-ratio: 100%;
 }
+.card > .card-header + .list-group,
+.card > .list-group + .card-footer {
+  border-top: 0;
+}
 
 .ratio-4x3 {
   --bs-aspect-ratio: 75%;
@@ -6563,6 +7162,7 @@ textarea.form-control-lg {
     z-index: 1020;
   }
 }
+<<<<<<< HEAD
 @media (min-width: 992px) {
   .sticky-lg-top {
     position: -webkit-sticky;
@@ -6586,6 +7186,13 @@ textarea.form-control-lg {
     top: 0;
     z-index: 1020;
   }
+=======
+
+.card-footer {
+  padding: 0.75rem 1.25rem;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+>>>>>>> parent of e7185bd (adding new style css)
 }
 .hstack {
   display: flex;
@@ -6620,8 +7227,13 @@ textarea.form-control-lg {
   right: 0;
   bottom: 0;
   left: 0;
+<<<<<<< HEAD
   z-index: 1;
   content: "";
+=======
+  padding: 1.25rem;
+  border-radius: calc(0.25rem - 1px);
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 .text-truncate {
@@ -6655,16 +7267,54 @@ textarea.form-control-lg {
   vertical-align: bottom !important;
 }
 
+<<<<<<< HEAD
 .align-text-bottom {
   vertical-align: text-bottom !important;
+=======
+.accordion {
+  overflow-anchor: none;
+}
+.accordion > .card {
+  overflow: hidden;
+}
+.accordion > .card:not(:last-of-type) {
+  border-bottom: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.accordion > .card:not(:first-of-type) {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.accordion > .card > .card-header {
+  border-radius: 0;
+  margin-bottom: -1px;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 .align-text-top {
   vertical-align: text-top !important;
 }
 
+<<<<<<< HEAD
 .float-start {
   float: left !important;
+=======
+.breadcrumb-item + .breadcrumb-item {
+  padding-left: 0.5rem;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  float: left;
+  padding-right: 0.5rem;
+  color: #6c757d;
+  content: "/";
+}
+.breadcrumb-item + .breadcrumb-item:hover::before {
+  text-decoration: underline;
+}
+.breadcrumb-item + .breadcrumb-item:hover::before {
+  text-decoration: none;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 .float-end {
@@ -6675,8 +7325,20 @@ textarea.form-control-lg {
   float: none !important;
 }
 
+<<<<<<< HEAD
 .opacity-0 {
   opacity: 0 !important;
+=======
+.page-link {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #bd5d38;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 .opacity-25 {
@@ -6871,9 +7533,19 @@ textarea.form-control-lg {
 .border-end-0 {
   border-right: 0 !important;
 }
+<<<<<<< HEAD
 
 .border-bottom {
   border-bottom: 1px solid #dee2e6 !important;
+=======
+.alert-dismissible .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  padding: 0.75rem 1.25rem;
+  color: inherit;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 .border-bottom-0 {
@@ -6996,8 +7668,14 @@ textarea.form-control-lg {
   height: auto !important;
 }
 
+<<<<<<< HEAD
 .mh-100 {
   max-height: 100% !important;
+=======
+.progress-bar-animated {
+  -webkit-animation: 1s linear infinite progress-bar-stripes;
+          animation: 1s linear infinite progress-bar-stripes;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 .vh-100 {
@@ -7224,8 +7902,21 @@ textarea.form-control-lg {
   margin: 1.5rem !important;
 }
 
+<<<<<<< HEAD
 .m-5 {
   margin: 3rem !important;
+=======
+.toast {
+  flex-basis: 350px;
+  max-width: 350px;
+  font-size: 0.875rem;
+  background-color: rgba(255, 255, 255, 0.85);
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  border-radius: 0.25rem;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 .m-auto {
@@ -7247,9 +7938,22 @@ textarea.form-control-lg {
   margin-left: 0.5rem !important;
 }
 
+<<<<<<< HEAD
 .mx-3 {
   margin-right: 1rem !important;
   margin-left: 1rem !important;
+=======
+.toast-header {
+  display: flex;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  color: #6c757d;
+  background-color: rgba(255, 255, 255, 0.85);
+  background-clip: padding-box;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 .mx-4 {
@@ -7397,9 +8101,34 @@ textarea.form-control-lg {
 .ms-2 {
   margin-left: 0.5rem !important;
 }
+<<<<<<< HEAD
 
 .ms-3 {
   margin-left: 1rem !important;
+=======
+.tooltip {
+  position: absolute;
+  z-index: 1070;
+  display: block;
+  margin: 0;
+  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  text-align: start;
+  text-decoration: none;
+  text-shadow: none;
+  text-transform: none;
+  letter-spacing: normal;
+  word-break: normal;
+  word-spacing: normal;
+  white-space: normal;
+  line-break: auto;
+  font-size: 0.875rem;
+  word-wrap: break-word;
+  opacity: 0;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 .ms-4 {
@@ -7473,9 +8202,39 @@ textarea.form-control-lg {
   padding-bottom: 0 !important;
 }
 
+<<<<<<< HEAD
 .py-1 {
   padding-top: 0.25rem !important;
   padding-bottom: 0.25rem !important;
+=======
+.popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1060;
+  display: block;
+  max-width: 276px;
+  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  text-align: start;
+  text-decoration: none;
+  text-shadow: none;
+  text-transform: none;
+  letter-spacing: normal;
+  word-break: normal;
+  word-spacing: normal;
+  white-space: normal;
+  line-break: auto;
+  font-size: 0.875rem;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 .py-2 {
@@ -7642,8 +8401,17 @@ textarea.form-control-lg {
   font-weight: 400 !important;
 }
 
+<<<<<<< HEAD
 .fw-bold {
   font-weight: 700 !important;
+=======
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: 50%/100% 100% no-repeat;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 .fw-bolder {
@@ -7681,9 +8449,22 @@ textarea.form-control-lg {
 .text-decoration-none {
   text-decoration: none !important;
 }
+<<<<<<< HEAD
 
 .text-decoration-underline {
   text-decoration: underline !important;
+=======
+.spinner-border {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  vertical-align: text-bottom;
+  border: 0.25em solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  -webkit-animation: 0.75s linear infinite spinner-border;
+          animation: 0.75s linear infinite spinner-border;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 .text-decoration-line-through {
@@ -7697,17 +8478,42 @@ textarea.form-control-lg {
 .text-uppercase {
   text-transform: uppercase !important;
 }
+<<<<<<< HEAD
 
 .text-capitalize {
   text-transform: capitalize !important;
+=======
+.spinner-grow {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  vertical-align: text-bottom;
+  background-color: currentColor;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-animation: 0.75s linear infinite spinner-grow;
+          animation: 0.75s linear infinite spinner-grow;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 .text-wrap {
   white-space: normal !important;
 }
 
+<<<<<<< HEAD
 .text-nowrap {
   white-space: nowrap !important;
+=======
+@media (prefers-reduced-motion: reduce) {
+  .spinner-border,
+.spinner-grow {
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
+  }
+}
+.align-baseline {
+  vertical-align: baseline !important;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 /* rtl:begin:remove */
@@ -7737,6 +8543,7 @@ textarea.form-control-lg {
   color: rgba(var(--bs-info-rgb), var(--bs-text-opacity)) !important;
 }
 
+<<<<<<< HEAD
 .text-warning {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-warning-rgb), var(--bs-text-opacity)) !important;
@@ -7745,6 +8552,16 @@ textarea.form-control-lg {
 .text-danger {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-danger-rgb), var(--bs-text-opacity)) !important;
+=======
+.bg-primary {
+  background-color: #bd5d38 !important;
+}
+
+a.bg-primary:hover, a.bg-primary:focus,
+button.bg-primary:hover,
+button.bg-primary:focus {
+  background-color: #964a2c !important;
+>>>>>>> parent of e7185bd (adding new style css)
 }
 
 .text-light {
@@ -8958,6 +9775,15 @@ textarea.form-control-lg {
     margin-top: 1rem !important;
     margin-bottom: 1rem !important;
   }
+<<<<<<< HEAD
+=======
+}
+.user-select-all {
+  -webkit-user-select: all !important;
+     -moz-user-select: all !important;
+          user-select: all !important;
+}
+>>>>>>> parent of e7185bd (adding new style css)
 
   .my-md-4 {
     margin-top: 1.5rem !important;
@@ -8994,9 +9820,15 @@ textarea.form-control-lg {
     margin-top: 1.5rem !important;
   }
 
+<<<<<<< HEAD
   .mt-md-5 {
     margin-top: 3rem !important;
   }
+=======
+.position-sticky {
+  position: sticky !important;
+}
+>>>>>>> parent of e7185bd (adding new style css)
 
   .mt-md-auto {
     margin-top: auto !important;
@@ -9006,8 +9838,16 @@ textarea.form-control-lg {
     margin-right: 0 !important;
   }
 
+<<<<<<< HEAD
   .me-md-1 {
     margin-right: 0.25rem !important;
+=======
+@supports (position: sticky) {
+  .sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+>>>>>>> parent of e7185bd (adding new style css)
   }
 
   .me-md-2 {
@@ -10967,9 +11807,15 @@ textarea.form-control-lg {
     margin-right: 0.5rem !important;
   }
 
+<<<<<<< HEAD
   .me-xxl-3 {
     margin-right: 1rem !important;
   }
+=======
+.text-monospace {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+}
+>>>>>>> parent of e7185bd (adding new style css)
 
   .me-xxl-4 {
     margin-right: 1.5rem !important;
@@ -11088,6 +11934,7 @@ textarea.form-control-lg {
     padding-left: 1.5rem !important;
   }
 
+<<<<<<< HEAD
   .px-xxl-5 {
     padding-right: 3rem !important;
     padding-left: 3rem !important;
@@ -11097,6 +11944,15 @@ textarea.form-control-lg {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
   }
+=======
+.text-primary {
+  color: #bd5d38 !important;
+}
+
+a.text-primary:hover, a.text-primary:focus {
+  color: #824027 !important;
+}
+>>>>>>> parent of e7185bd (adding new style css)
 
   .py-xxl-1 {
     padding-top: 0.25rem !important;
@@ -11183,9 +12039,16 @@ textarea.form-control-lg {
     padding-bottom: 0.5rem !important;
   }
 
+<<<<<<< HEAD
   .pb-xxl-3 {
     padding-bottom: 1rem !important;
   }
+=======
+.text-break {
+  word-break: break-word !important;
+  word-wrap: break-word !important;
+}
+>>>>>>> parent of e7185bd (adding new style css)
 
   .pb-xxl-4 {
     padding-bottom: 1.5rem !important;
@@ -11308,9 +12171,13 @@ h3,
 h4,
 .h4,
 h5,
+<<<<<<< HEAD
 .h5,
 h6,
 .h6 {
+=======
+h6 {
+>>>>>>> parent of e7185bd (adding new style css)
   text-transform: uppercase;
 }
 
@@ -11343,7 +12210,7 @@ p.lead {
   outline-color: #d48a6e;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   #sideNav {
     padding-left: 0;
     padding-right: 0;
@@ -11388,8 +12255,8 @@ p.lead {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
   background-color: #495057;
   color: #fff;
   border-radius: 100%;
