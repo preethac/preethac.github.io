@@ -24,7 +24,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #bd5d38;
+  --primary: #3A78B6;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -222,7 +222,6 @@ caption {
 
 th {
   text-align: inherit;
-  text-align: -webkit-match-parent;
 }
 
 label {
@@ -234,7 +233,7 @@ button {
   border-radius: 0;
 }
 
-button:focus:not(:focus-visible) {
+button:focus {
   outline: 1px dotted;
   outline: 5px auto -webkit-focus-ring-color;
 }
@@ -460,7 +459,6 @@ mark,
 
 .initialism {
   font-size: 90%;
-  text-transform: uppercase;
 }
 
 .blockquote {
@@ -474,7 +472,7 @@ mark,
   color: #6c757d;
 }
 .blockquote-footer::before {
-  content: "— ";
+  content: "— ";
 }
 
 .img-fluid {
@@ -543,12 +541,7 @@ pre code {
   overflow-y: scroll;
 }
 
-.container,
-.container-fluid,
-.container-xl,
-.container-lg,
-.container-md,
-.container-sm {
+.container {
   width: 100%;
   padding-right: 0.75rem;
   padding-left: 0.75rem;
@@ -4572,6 +4565,7 @@ input[type=button].btn-block {
   background-color: #e9ecef;
   border-radius: 0.25rem;
 }
+
 .breadcrumb-item {
   display: flex;
 }
@@ -10129,13 +10123,14 @@ section.resume-section .resume-section-content {
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    min-height: 20vh;
   }
 }
 @media (min-width: 992px) {
   section.resume-section {
     padding-left: 3rem;
     padding-right: 3rem;
+
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
