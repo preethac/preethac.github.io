@@ -7,7 +7,7 @@
     "use strict"; // Start of use strict
 
     // Smooth scrolling using anime.js
-    $('a.js-scroll-trigger[href*="#"]:not([href="#"])').on('click', function () {
+    $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
         if (
             location.pathname.replace(/^\//, "") ==
             this.pathname.replace(/^\//, "") &&
@@ -18,13 +18,14 @@
                 target :
                 $("[name=" + this.hash.slice(1) + "]");
             if (target.length) {
-                anime({
-                    targets: 'html, body',
-                    scrollTop: target.offset().top,
-                    duration: 1000,
-                    easing: 'easeInOutExpo'
-                });
-                return false;
+              $("html, body").animate(
+                  {
+                      scrollTop: target.offset().top,
+                  },
+                  1000,
+                  "easeInOutExpo"
+              );
+              return false;
             }
         }
     });
@@ -36,7 +37,7 @@
 
     // Activate scrollspy to add active class to navbar items on scroll
     $("body").scrollspy({
-        target: "#mainNav"
+        target: "#sideNav",
     });
 
 })(jQuery); // End of use strict
